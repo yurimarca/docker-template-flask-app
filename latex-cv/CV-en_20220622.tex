@@ -1,0 +1,275 @@
+%-------------------------
+% Resume in Latex
+% Author : Sourabh Bajaj
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+ \usepackage{ragged2e}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+\newcommand{\resumeItemAlt}[2]{
+	\vspace{-2pt}
+	\item\small{
+		\textbf{#1}{#2 \vspace{-2pt}}
+	}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace {-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2\\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubheadingAlt}[6]{
+	\vspace{-1pt}\item
+	\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+		\textbf{#1} & #2\\
+		\textit{\small#3} & \textit{\small #4} \\
+		\textit{\small#5} & \textit{\small #6} \\
+	\end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize} }
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+	
+	\justify
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+	\textbf{\Large Yuri Pereira Marca} & Address: R. Europa, 200 - Trindade. 
+	Florianópolis/SC.
+	88036-135
+	\\
+	& Mobile: +55 (48) 99976-2173 | Email: \href{mailto:yurimarca@gmail.com}{yurimarca@gmail.com} \\
+	& Website: \href{https://yurimarca.github.io/}{yurimarca.github.io}
+	
+\end{tabular*}
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+     {University of Warwick, Warwick Business School}{Coventry, United Kingdom}
+     {Ph.D. in Operations Research \textbf{(Uncompleted)}}{Oct. 2019 -- April 2022}
+     		\resumeItemListStart
+	     		\resumeItemAlt{}
+	     		{WBS Scholarship}
+     		\resumeItemListEnd
+    \resumeSubheading
+     {Shinshu University}{Nagano, Japan}
+     {Master of Engineering in Electronics and Information System}{Apr. 2017 -- Mar. 2019}
+     		\resumeItemListStart
+	     		\resumeItemAlt{}
+	     		{MEXT Monbukagakusho Scholarship (Japanese Government)}
+     		\resumeItemListEnd
+    \resumeSubheading
+	 {Concordia University}{Montreal, Canada}
+	 {Exchange Student, Electrical Engineering}{Aug. 2012 -- Aug. 2013}
+      		\resumeItemListStart
+	      		\resumeItemAlt{}
+	      		{Science Without Borders Scholarship (Brazilian Government)}
+      		\resumeItemListEnd
+    \resumeSubheading
+	 {Federal University of Technology - Parana}{Curitiba, Brazil}
+	 {Bachelor of Engineering in Electronics}{Jan. 2010 -- Jul. 2016}
+  \resumeSubHeadingListEnd
+ 
+
+%-----------RESEARCH-EXPERIENCE-----------------
+\section{Research Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+	    {University of Warwick, Warwick Business School}{Coventry, United Kingdom}
+	    {Ph.D. Research}{Oct. 2019 -- April 2022}
+		\resumeItemListStart
+			\resumeItem{Field of Research}
+			{Ranking \& Selection; Multi-armed bandit problems; Bayesian Optimization; Deep Learning.}
+		    \resumeItem{Research}
+		    {Under the supervision of Juergen Branke, my research was focused on efficient budget allocation for policy learning in sequential decision problems.}
+		    \resumeItem{Collaboration}
+		    {Prof. Chun-Hung Chen from George Mason University in the US.}
+	    \resumeItemListEnd
+
+
+    \resumeSubheading
+	    {Shinshu University}{Nagano, Japan}
+	    {MSc Research}{Apr. 2017 -- Mar. 2019}
+		\resumeItemListStart
+			\resumeItem{Field of Research}
+			{Genetic algorithms; Evolutionary Computation.}
+		    \resumeItem{Research}
+		    {Studied the impact of difficult Pareto set topologies on the performance of multi-objective evolutionary algorithms (MOEA), and developed a new method to improve MOEA's performance on such problems.}
+		    \resumeItem{International Collaboration}
+		    {Worked with researchers from Japan, Mexico, and France.}
+		    \resumeItem{Recognition}
+		    {Presented work at local and international conferences, earning two IEEE Young Researcher Award in Japanese conferences.}
+	    \resumeItemListEnd
+
+    \resumeSubheadingAlt
+      {SSE Gridtech}{Curitiba, Brazil}
+      {Internship}{Oct. 2014 -- Dec. 2015}       
+      {R\&D Engineer}{Jan. 2016 -- Aug. 2016}
+      \resumeItemListStart
+      	\resumeItem{Field of Research}
+      	{Smartgrid; Internet of things; long distance radio communication in noisy channels.}
+        \resumeItem{Research}
+        {Developed a radio communication system to reduce the number of GSM nodes in a smart metering solution by introducing long distance radio technology LoRaWAN.}
+        \resumeItem{Recognition}
+        {The result of this work was published at the Brazilian telecommunication symposium.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+	    {Concordia University}{Montreal, Canada}
+	    {Short Term Researcher}{May 2013 -- Aug. 2013}
+	    \resumeItemListStart
+	    	\resumeItem{Field of Research}
+	    	{Signal processing.}
+		    \resumeItem{Research}
+		    {Three months study on the use of software filters to decrease signal interferences from eyes and muscles in electroencephalography.}
+	    \resumeItemListEnd
+    
+    \resumeSubheading
+      {Federal University of Technology - Parana}{Curitiba, Brazil}
+      {Technical Support to Research}{Apr. 2011 -- Aug. 2012}
+      \resumeItemListStart
+        \resumeItem{Project 1}
+          {Supported a master student in business administration on the development of a Windows application.}
+        \resumeItem{Project 2}
+          {Supported a medical research group on the development of an Android OS application.}
+        \resumeItem{Experience}
+	      {First contact with research during second year as undergraduate student, being able to publish papers and participate in local conferences.}
+         
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%--------TECHNICAL EXPERTISE------------
+\section{Technical Expertise}
+
+\begin{tabular}{l @{\quad} l}
+ 	\textbf{Programming Languages:}& Assembly, C, C++, Java, Bash (Unix Shell), Python.\\
+ 	\textbf{Computational Tools:}& MATLAB, R Studio, GitHub.\\ %Android Studio, OrCAD, Quartus II\\
+ 	\textbf{Operating Systems:}& Linux, Windows\\
+ 	
+\end{tabular}
+
+%--------LANGUAGES------------
+\section{Languages}
+
+\begin{tabular}{l @{\quad} l}
+	\textbf{Portuguese:}&Native\\
+	\textbf{English:}&Fluent -- TOEFL: 106 (Jan 5$^{th}$, 2019)\\
+	\textbf{Japanese:}&Conversational \\
+\end{tabular}
+
+%-----------EXPERIENCE-----------------
+\section{Leadership Experience}
+\resumeSubHeadingListStart
+
+	\resumeSubheading
+		{NGO Formacao Solidaria}{Curitiba, Brazil}
+		{Volunteer Teacher}{Feb. 2014 -- Sep. 2016}
+		\resumeItemListStart
+			\resumeItem{Activity}
+			{Taught Physics to high school students and young adults from low-income families to prepare them to take Brazilian national exam test to enter university.}
+		\resumeItemListEnd
+
+	\resumeSubheading
+		{Shinshu International Association for Children's Education -- SIACE}{Nagano, Japan}
+		{Co-Founder}{Jan. 2018 -- Apr. 2019}
+		\resumeItemListStart
+			\resumeItem{Activity}
+			{Organizing events to raise money and support NGOs working with children's education in Ethiopia.}
+	\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%\vspace{-20pt}
+
+%-----------PUBLICATIONS-----------------
+\section{Publications}
+\resumeItemListStart
+	\resumeItemAlt{}
+	{\textbf{Y. Marca}, H. Aguirre, S. Zapotecas, A. Liefooghe, B. Derbel, S. Verel, and K. Tanaka. Approximating Pareto set topology by cubic interpolation on bi-objective problems. 10th International Conference on Evolutionary Multi-Criterion Optimization (EMO 2019), Lecture Notes in Computer Science (LNCS), Michigan, USA. \textbf{(Best Student Paper Award)}}	
+	\resumeItemAlt{}
+	{\textbf{Y. Marca}, H. Aguirre, S. Zapotecas, A. Liefooghe, B. Derbel, S. Verel, and K. Tanaka. NSGA-II with Spline Interpolation on Bi-objective Problems with Difficult Pareto Set Topology. JPNSEC 2018 Symposium on Evolutionary Computation, Fukuoka, 2018. \textbf{(Young Research Award)}}
+	\resumeItemAlt{}
+	{\textbf{Y. Marca}, H. Aguirre, S. Zapotecas, A. Liefooghe, B. Derbel, S. Verel, and K. Tanaka. MOEAs on Problems with Difficult Pareto Set Topologies. IEICE Shin-etsu Branch IEEE Session, Niigata University, 2018, p. 169.\textbf{(Young Research Award)}}
+	\resumeItemAlt{}
+	{\textbf{Y. Marca}, H. Aguirre, S. Zapotecas, A. Liefooghe, B. Derbel, S. Verel, and K. Tanaka. Pareto dominance-based MOEAs on problems with difficult pareto set topologies. In Proceedings of the Genetic and Evolutionary Computation Conference Companion (GECCO '18). ACM, New York, NY, USA, 189-190.}
+	\resumeItemAlt{}
+	{C. E. A. L. Rocha, \textbf{Y. P. Marca}, F. K. Schneider. Support Platform for Decision-Making in Research and Technological Development in Public Health. ESPACIOS (CARACAS), v. 39, p. 14-26, 2018.}
+
+	\resumeItemAlt{}
+	{\textbf{Y. P. Marca}, S. Scholze. Proposta de Substituição da Comunicação GSM em Smart Grids por Rádios de Longo Alcance. XXXIII Simpósio Brasileiro de Telecomunicações, 2015, Juiz de Fora, MG. Anais Completo da Programação Técnica, 2015.}
+
+	\resumeItemAlt{}
+	{\textbf{Y. P. Marca}, C. E. A. L. Rocha, B. Schneider Jr , F. K. Schneider. Plataforma de Apoio ao Processo Decisório em Pesquisa e Desenvolvimento Tecnológico em Saúde. Congresso Brasileiro de Engenharia Biomédica, 2012, Porto de Galinhas. ANAIS - CBEB 2012, 2012.}
+	\resumeItemAlt{}
+	{M. P. Krause, D. M. Nakato, \textbf{Y. P. Marca}, F. K. Schneider. Gerenciamento do Controle da Glicemia Utilizando um Aplicativo para Celular. Congresso Brasileiro de Engenharia Biomédica, 2012, Porto de Galinhas. ANAIS - CBEB 2012, 2012.}
+	
+\resumeItemListEnd
+
+\vspace{20pt}\color{black}\titlerule \vspace{10pt}
+\textit{\textbf{References available upon request. Additional information can be found on my website. }}
+
+%-------------------------------------------
+\end{document}
